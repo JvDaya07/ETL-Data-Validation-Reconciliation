@@ -118,6 +118,6 @@ This project uses synthetic demonstration data and is intended to showcase pract
 
 ## Author
 
-Dayananda Data Solutions
+Dayananda J V
 
 **Specialization:** ETL Testing | SQL Data Validation | Python Automation | Data Quality Assurance
