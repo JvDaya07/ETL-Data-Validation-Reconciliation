@@ -27,6 +27,27 @@ It automates record reconciliation, duplicate detection, NULL validation, column
 9. Automated Excel report generation.
 10. Logging and exception handling.
 
+## Project Screenshots
+
+### 1. Project Structure
+![Project Structure](screenshots/01_project_structure.png)
+
+### 2. Successful Execution
+![Terminal Execution](screenshots/02_terminal_execution_1.png)
+![Terminal Execution](screenshots/02_terminal_execution_2.png)
+![Terminal Execution](screenshots/02_terminal_execution_3.png)
+
+### 3. Validation Summary
+![Validation Summary](screenshots/03_validation_summary.png)
+
+### 4. Detailed Mismatch Report
+![Mismatch Report](screenshots/04_mismatch_report.png)
+
+### 5. Business Rule Validation
+![Business Rule Results](screenshots/05_execution_log.png)
+
+### 6. Execution Logs
+![Execution Logs](screenshots/06_execution_log.png)
 ## Project Structure
 
 ```text
