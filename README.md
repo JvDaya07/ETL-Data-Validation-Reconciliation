@@ -30,7 +30,7 @@ It automates record reconciliation, duplicate detection, NULL validation, column
 ## Project Screenshots
 
 ### 1. Project Structure
-![Project Structure](screenshots/01_project_structure.png)
+![Project Structure](screenshots/01_Project_Structure.png)
 
 ### 2. Successful Execution
 ![Terminal Execution](screenshots/02_terminal_execution_1.png)
@@ -46,8 +46,7 @@ It automates record reconciliation, duplicate detection, NULL validation, column
 ### 5. Business Rule Validation
 ![Business Rule Results](screenshots/05_execution_log.png)
 
-### 6. Execution Logs
-![Execution Logs](screenshots/06_execution_log.png)
+
 ## Project Structure
 
 ```text
