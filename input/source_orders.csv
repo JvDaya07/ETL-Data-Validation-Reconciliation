@@ -1,0 +1,16 @@
+order_id,customer_name,city,quantity,unit_price,status,order_total
+1001,Asha,Hyderabad,2,500.0,PLACED,1000.0
+1002,Rahul,Bengaluru,1,1200.0,PLACED,1200.0
+1003,Meena,Chennai,3,250.0,SHIPPED,750.0
+1004,Kiran,Hyderabad,1,750.0,PLACED,750.0
+1005,Divya,Pune,4,100.0,SHIPPED,400.0
+1006,Arjun,Bengaluru,2,900.0,CANCELLED,1800.0
+1007,Sneha,Chennai,1,1500.0,PLACED,1500.0
+1008,Vikram,Hyderabad,5,80.0,SHIPPED,400.0
+1009,Nisha,Pune,2,450.0,PLACED,900.0
+1010,Rohit,Bengaluru,1,2000.0,SHIPPED,2000.0
+1011,Pooja,Chennai,3,300.0,PLACED,900.0
+1012,Manoj,Hyderabad,2,650.0,PLACED,1300.0
+1013,Isha,Pune,1,1100.0,SHIPPED,1100.0
+1014,Sanjay,Bengaluru,4,175.0,PLACED,700.0
+1015,Kavya,Chennai,2,800.0,CANCELLED,1600.0

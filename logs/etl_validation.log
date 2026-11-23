@@ -1,0 +1,34 @@
+from pathlib import Path
+
+Path("logs").mkdir(exist_ok=True)2026-11-23 22:32:41,033 - INFO - ===== ETL VALIDATION STARTED =====
+2026-11-23 22:32:41,272 - INFO - Source and target datasets loaded successfully
+2026-11-23 22:32:41,307 - INFO - Excel reports generated successfully
+2026-11-23 22:32:41,307 - INFO - ===== ETL VALIDATION COMPLETED =====
+2026-11-23 22:32:41,311 - INFO - Total mismatch issues found: 7
+2026-11-23 22:34:35,104 - INFO - ===== ETL VALIDATION STARTED =====
+2026-11-23 22:34:35,418 - INFO - Source and target datasets loaded successfully
+2026-11-23 22:34:35,452 - INFO - Excel reports generated successfully
+2026-11-23 22:34:35,452 - INFO - ===== ETL VALIDATION COMPLETED =====
+2026-11-23 22:34:35,456 - INFO - Total mismatch issues found: 7
+2026-11-23 22:34:35,494 - INFO - ===== ETL VALIDATION PROCESS ENDED =====
+2026-11-23 22:37:31,542 - INFO - ===== ETL VALIDATION STARTED =====
+2026-11-23 22:37:31,542 - ERROR - Required input file not found
+Traceback (most recent call last):
+  File "D:\Users\Desktop\JVD_Data_Solutions\ETL_Validation\src\load_data.py", line 648, in <module>
+    main()
+    ~~~~^^
+  File "D:\Users\Desktop\JVD_Data_Solutions\ETL_Validation\src\load_data.py", line 363, in main
+    source_df, target_df, project_path = load_datasets()
+                                         ~~~~~~~~~~~~~^^
+  File "D:\Users\Desktop\JVD_Data_Solutions\ETL_Validation\src\load_data.py", line 23, in load_datasets
+    raise FileNotFoundError(
+        f"Source file not found: {source_file}"
+    )
+FileNotFoundError: Source file not found: D:\Users\Desktop\JVD_Data_Solutions\ETL_Validation\input\source_orders.csv
+2026-11-23 22:37:31,547 - INFO - ===== ETL VALIDATION PROCESS ENDED =====
+2026-11-23 22:50:56,147 - INFO - ===== ETL VALIDATION STARTED =====
+2026-11-23 22:50:56,396 - INFO - Source and target datasets loaded successfully
+2026-11-23 22:50:56,433 - INFO - Excel reports generated successfully
+2026-11-23 22:50:56,434 - INFO - ===== ETL VALIDATION COMPLETED =====
+2026-11-23 22:50:56,438 - INFO - Total mismatch issues found: 7
+2026-11-23 22:50:56,481 - INFO - ===== ETL VALIDATION PROCESS ENDED =====
